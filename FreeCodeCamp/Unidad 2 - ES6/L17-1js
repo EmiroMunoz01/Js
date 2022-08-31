@@ -1,0 +1,9 @@
+const uppercaseString = (string) => {
+    return string.toUpperCase();
+}
+
+const lowercaseString = (string) => {
+    return string.toLowerCase()
+}
+//Con esta sintaxis exportamos dos funciones, las podremos usar en otro archivo js
+export { uppercaseString, lowercaseString }
